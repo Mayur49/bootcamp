@@ -1,0 +1,37 @@
+
+public class stopwatch {
+ 
+	static double start=0 ,stop=0;
+	  
+	static void startTime()
+	{
+		start=System.currentTimeMillis();
+		System.out.println("Started at" +start);
+	}
+	  
+	 static void EndTime()
+	 {
+		 
+	 }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

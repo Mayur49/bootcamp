@@ -1,0 +1,20 @@
+package com.bridgelabz.basic;
+
+import java.util.Scanner;
+
+public class Name {
+
+	public static void main(String[] args) {
+	
+		String name = Utility.inputString();
+		int len=name.length();
+		
+		if(name>=3)
+		{
+			System.out.println("Hii"+name+"hoe are u");
+		}else {
+			System.out.println("invalid name");
+		}
+	}
+
+}

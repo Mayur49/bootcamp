@@ -1,0 +1,17 @@
+package com.bridgelabz.Utility;
+
+import java.util.Scanner;
+
+public class Utility {
+	 
+	  static Scanner name = new Scanner(System.in);
+	   public static int integerInput()
+	   {
+	   return name.nextInt();
+	   }
+	   public static String  stringInput() 
+	   {
+		return name.nextLine();
+	   }
+    
+}  

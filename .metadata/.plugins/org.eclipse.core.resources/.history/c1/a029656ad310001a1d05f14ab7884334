@@ -1,0 +1,20 @@
+
+
+import java.util.Scanner;
+
+public class Name {
+
+	public static void main(String[] args) {
+	
+		String name = Utility.inputString();
+		int len=name.length();
+		
+		if(len>=3)
+		{
+			System.out.println("Hii"+name+"hoe are u");
+		}else {
+			System.out.println("invalid name");
+		}
+	}
+
+}

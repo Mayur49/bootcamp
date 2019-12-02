@@ -1,0 +1,44 @@
+
+
+public class Leap {
+
+	public static boolean LeapYearCheck(int year)
+	{
+		if(year>1000)
+		{
+			if((year%400==0) || ((year%4==0) && (year%100 !=0)))
+			{
+				return true;
+			}
+		}
+		     return false;
+	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		 System.out.println("enter leap year");
+		 
+		 int year=Utility.inputInteger();
+		 boolean result= LeapYearCheck(year);
+		 
+		 if(result)
+		 {
+			 System.out.println(" leap"+year+ "is leap year");
+		 }
+		 else 
+		 {
+			 System.out.println("year:" +year+"not leap year");
+		 }
+		 
+		 
+		 
+		 
+		 
+		
+
+	}
+
+}

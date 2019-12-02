@@ -1,0 +1,37 @@
+package com.bridgelabz.Utility;
+import java.util.Scanner;
+
+public class leapcheck {
+	
+	public static void main(String[] args) {
+	  int year,leap;
+	    
+	  Scanner sc= new Scanner(System.in);
+	  
+	  System.out.println("enter the year ");
+	    year= sc.nextInt(); 
+	  
+	  
+	 if(leap>1000)
+	 {
+		 System.out.println("leap  year range found ");
+	 }
+	 else 
+	 {
+		 System.out.println("range not found ")
+	 }
+		 
+		 if((leap%400==0) || ((leap%4==0) && (leap%100 !=0)))
+		 {
+			 System.out.println(" leap year ")
+		 }
+		 
+	 }
+	else 
+	{
+		 System.out.println("not leap year ")	
+		
+	}
+   
+ 
+}

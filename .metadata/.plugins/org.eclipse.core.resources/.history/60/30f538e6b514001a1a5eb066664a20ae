@@ -1,0 +1,31 @@
+
+public class BubbleSort {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	String str[]= {"mayur","sonal","satyam","pinky","vishal","mayuri","prathu"};
+	String temp;
+	String a[];
+	
+	
+	System.out.println("string in sorted order");
+	 
+	 for(int i=0;i<str.length;i++)
+	 {
+		 for(int j=i+1;i<str.length;j++)
+		 {
+			if(str[j].compareTo(str[i])<0)
+			{
+		
+				temp=a[i];
+				a[i]=a[j];
+				a[j]=temp;
+			}
+		 }
+		 System.out.println(str[i]);
+	 }
+	
+	}
+
+}

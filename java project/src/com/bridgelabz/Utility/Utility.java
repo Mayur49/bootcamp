@@ -1,0 +1,31 @@
+package com.bridgelabz.Utility;
+
+import java.util.Scanner;
+
+public class Utility {
+	 
+	  static Scanner sc= new Scanner(System.in);
+	   public static int integerInput()
+	   {
+	   return sc.nextInt();
+	   }
+	   public static String  stringInput() 
+	   {
+		return sc.nextLine();
+	   }
+	   
+	   /****************** LEAP YEAR********************************/
+	   
+		public static boolean LeapYearCheck(int year)
+		{
+			if(year>1000)
+			{
+				if((year%400==0) || ((year%4==0) && (year%100 !=0)))
+				{
+					return true;
+				}
+			}
+			return false;
+		}
+	 
+}  

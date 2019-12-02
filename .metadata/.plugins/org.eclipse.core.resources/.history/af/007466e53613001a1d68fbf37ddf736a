@@ -1,0 +1,20 @@
+
+public class vendingmachine {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       int amt=12345;
+       int a[];
+       int amt1=0,i=0;
+       int arr[]= {234,345,1098,2345,321,123,1253};
+       while(amt>0)
+       {
+    	   amt1=amt/arr[i];
+    	   amt=amt%arr[i];
+    	  
+    	   System.out.println(arr[i]+" "+amt1);
+    	   i++;
+       }
+	}
+
+}
